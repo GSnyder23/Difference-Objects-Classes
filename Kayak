@@ -1,0 +1,22 @@
+// This is a class representing a Hobie Cat Kayak. It defines the blueprint for creating specific kayak objects.
+public class Kayak {
+   
+    // Fields (attributes) that represent a kayak's properties
+    String model;
+    String material;
+    double length;
+
+   
+    // Constructor to initialize a Kayak object
+    public Kayak(String model, String material, double length) {
+        this.model = model;
+        this.material = material;
+        this.length = length;
+    }
+
+    
+    // A method that describes the kayak
+    public void describeKayak() {
+        System.out.println("This kayak is a " + model + " made of " + material + " with a length of " + length + " feet.");
+    }
+}
