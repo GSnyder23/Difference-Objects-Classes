@@ -1,0 +1,12 @@
+// KayakDemo.java
+public class KayakDemo {
+    public static void main(String[] args) {
+        // Creating objects (specific kayaks) from the Kayak class
+        Kayak hobieOutback = new Kayak("Hobie Mirage Outback", "Ravago resin", 12.9);
+        Kayak hobieProAngler = new Kayak("Hobie Pro Angler", "Mosaic resin", 14.0);
+
+        // Calling methods on the Kayak objects
+        hobieOutback.describeKayak();
+        hobieProAngler.describeKayak();
+    }
+}
